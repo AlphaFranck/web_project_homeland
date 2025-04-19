@@ -1,0 +1,39 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 254px;
+  height: 69px;
+  margin-top: 34px;
+}
+
+.logo_title {
+  padding-top: 22px;
+  height: 15px;
+}
+
+.logo_image {
+  width: 12.5%;
+  height: 46.37%;
+}
+
+@media (min-width: 544px) and (max-width: 1024px) {
+  .logo {
+    width: 254px;
+    height: 66px;
+  }
+}
+
+@media (max-width: 544px) {
+  .logo {
+    width: 188px;
+    height: 52px;
+    margin-top: 20px;
+  }
+
+  .logo_title {
+    width: 189px;
+    height: 11px;
+  }
+}
