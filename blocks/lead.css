@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
+  width: 100%;
+  
 }
 .lead_title {
-  height: 200px;
   width: 720px;
   font-size: 96px;
   line-height: 100px;
@@ -17,7 +17,6 @@
 }
 
 .lead_subtitle {
-  height: 72px;
   width: 720px;
   font-size: 30px;
   font-weight: 400;
@@ -34,7 +33,7 @@
   margin-top: 64px;
 }
 
-@media (min-width: 544px) and (max-width: 1024px) {
+@media (min-width: 545px) and (max-width: 1024px) {
   .lead_title {
     width: 530px;
     height: 158px;
@@ -42,37 +41,38 @@
     line-height: 79px;
   }
 
+  .lead_subtitle {
+    width: 93.75%;
+    
+  }
+
   .lead_image {
-    width: 752px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
     margin-top: 30px;
   }
 }
 
 @media (max-width: 544px) {
   .lead {
-    width: 288px;
-    height: auto;
+    width: 100%;
   }
-
   .lead_title {
-    width: 228px;
-    height: 88px;
+    width: 100%;
     font-size: 40px;
     line-height: 44px;
     margin-top: 50px;
   }
 
   .lead_subtitle {
-    width: 288px;
-    height: 40px;
+    width: 100%;
     font-size: 16px;
     line-height: 20px;
   }
 
   .lead_image {
-    width: 305px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
   }
 }
