@@ -1,113 +1,77 @@
 .intro {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  margin: 0;
+  align-items: center;
   width: 100%;
-  margin-top: 92px;
+  
 }
-
-.intro_title {
-  width: 830px;
-  font-size: 54px;
-  line-height: 58px;
+.intro__title {
+  width: 720px;
+  font-size: 96px;
+  line-height: 100px;
   font-weight: 900;
   color: #fff;
-  text-align: left;
+  text-align: center;
   margin: 0;
+  margin-top: 91px;
 }
 
-.intro_quote {
-  width: 738px;
-  font-size: 24px;
-  line-height: 34px;
+.intro__strapline {
+  width: 720px;
+  font-size: 30px;
   font-weight: 400;
+  line-height: 36px;
   color: #fff;
-  text-align: left;
-  margin: 0;
-  margin-top: 40px;
-}
-
-.intro_author {
-  width: 732px;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 400;
-  color: #fff;
-  text-align: right;
-  margin: 0;
-  margin-top: 10px;
-}
-
-.intro_text {
-  width: 722px;
-  font-size: 16px;
-  line-height: 163%;
-  font-weight: 400;
-  color: #fff;
-  text-align: left;
+  text-align: center;
   margin: 0;
   margin-top: 32px;
 }
 
+.intro__image {
+  width: 984px;
+  height: 615px;
+  margin-top: 64px;
+}
+
 @media (min-width: 545px) and (max-width: 1024px) {
-  .intro {
+  .intro__title {
+    width: 530px;
+    font-size: 75px;
+    line-height: 79px;
+  }
+
+  .intro__strapline {
     width: 93.75%;
-    margin-top: 90px;
     
   }
 
-  .intro_title {
-    font-size: 45px;
-    line-height: 49px;
-    width: 92.05%;
-  }
-
-  .intro_quote {
-    margin-top: 50px;
-    width: 100%;
-  }
-
-  .intro_author {
-    width: 100%;
-  }
-
-  .intro_text {
-    width: 100%;
+  .intro__image {
+    width: 106.25%;
+    height: 106.25%;
+    margin-top: 30px;
   }
 }
 
 @media (max-width: 544px) {
   .intro {
-    width: 288px;
-    align-items: center;
-    margin-top: 64px;
-  }
-
-  .intro_title {
     width: 100%;
-    font-size: 32px;
-    line-height: 35px;
+  }
+  .intro__title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 50px;
   }
 
-  .intro_quote {
-    width: 288px;
-    height: 300px;
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .intro_author {
-    width: 288px;
-    height: 34px;
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .intro_text {
-    width: 288px;
-    height: 422px;
+  .intro__strapline {
+    width: 100%;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 20px;
+  }
+
+  .intro__image {
+    width: 111%;
+    height: 111%;
+    margin-top: 40px;
   }
 }

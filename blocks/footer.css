@@ -2,12 +2,12 @@
   height: 16px;
   width: auto;
   margin: 0 auto;
-  margin-top: 96px;
+  margin-top: 92px;
   margin-bottom: 16px;
   align-items: center;
 }
 
-.footer_copyright {
+.footer__copyright {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
