@@ -10,3 +10,14 @@
     width: 284px;
     object-fit: cover;
 }
+
+@media (min-width: 545px) and (max-width: 1024px) {
+    .photo-grid {
+        margin-top: 64px;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .photo-grid__item {
+        width: 352px;
+    }
+}
