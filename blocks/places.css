@@ -70,11 +70,11 @@
   color: #fff;
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
 }
 
 .places__button:hover {
-  background: linear-gradient(to right, #0278fe 0%, #003a7b 0%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .places__artist {
