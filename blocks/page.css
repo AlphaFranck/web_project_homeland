@@ -6,7 +6,7 @@
   margin: 0 auto;
   background-color: rgba(42, 44, 41, 1);
   max-width: 100%;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
 }
 
